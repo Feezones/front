@@ -1,0 +1,45 @@
+
+#principal{
+    display: grid;
+
+    grid-template-areas: "cabecalho cabecalho cabecalho"
+                         "menu      main    right"
+                         "menu    footer    footer";
+
+    grid-template-rows: 80px 120px 120px;
+    grid-template-columns: 20% 40% 40%;
+
+}
+
+.cabecalho{
+    background-color: rgb(145, 128, 128);
+    grid-area: cabecalho;
+}
+
+.menu{
+    background-color: rgb(140, 140, 252);
+    grid-area:menu;
+
+
+}
+
+.main{
+    background-color: rgb(83, 155, 83);
+    grid-area:main;
+
+
+}
+
+.right{
+    background-color: rgb(172, 90, 131);
+    grid-area:right;
+
+}
+
+.footer{
+    background-color: rgb(196, 186, 100);
+    grid-area:footer;
+
+
+}
+
