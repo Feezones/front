@@ -44,8 +44,8 @@ form{
 }
 
 input{
-    width: 93%;
-    padding: 12px 20px;
+    width: 100%;
+    padding: 12px 1px;
     margin: 8px 0;
     display: inline-block;
     border: none;
@@ -53,6 +53,7 @@ input{
     border-bottom:1px solid #fff;
     background: transparent;
   }
+
 
   #icon1{
     display:block;
